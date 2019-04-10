@@ -5,6 +5,8 @@ import { Container, Header, SongList } from './styles';
 import Clockicon from '../../assets/images/clock.svg';
 import PlusIcon from '../../assets/images/plus.svg';
 
+console.tron.log('uepa!!');
+
 const Playlist = () => (
   <Container>
     <Header>
@@ -17,7 +19,7 @@ const Playlist = () => (
         <h1>Rock Forever</h1>
         <p>13 músicas</p>
 
-        <button>PLAY</button>
+        <button type="button">PLAY</button>
       </div>
     </Header>
     <SongList cellPadding={0} cellSpacing={0}>
